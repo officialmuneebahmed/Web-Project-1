@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <script src="https://kit.fontawesome.com/a19de92425.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="drop">
+                    <li id="pro-1"><a href="#">Project 1</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                    <li id="pro-1" ><a href="#">Project 2</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                    <li  id="pro-1"><a href="#">Project 3</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                    <li id="pro-1" ><a href="#">Project 4</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+
+            <h1 id="h1_f"> NAV</h1> <h1 id="h1_s">-BAR</h1>
+        </ul>
+
+            <div class="burger">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+
+
+        <div class="side-nav-div">
+            <i class="fa-solid fa-xmark fa-xl"></i>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects <i class="fa-solid fa-chevron-right"></i></i></a>
+                <ul class="drop-2">
+                    <li id="pro-2"><a href="#">Project 1</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                    <li id="pro-2" ><a href="#">Project 2</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                    <li id="pro-2"><a href="#">Project 1</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                    <li id="pro-2" ><a href="#">Project 2</a>
+                        <p>This is Somthing you will never know about .... </p>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <h1 id="h1_f"> NAV</h1> <h1 id="h1_s">-BAR</h1>
+        </div>
+
+            
+        
+    </nav>
+
+    <!-- MAIN CONTENT-->
+    <main class="content">
+        <div>
+            <code class="ln-1">This is a quick mini ==> nav-foot project </code>
+        </div>
+        <hr>
+        <div>
+            <code class="ln-2">Appreciate this project by <b>COMMENTING &plus; LIKING </b> <i class="fa-regular fa-thumbs-up"></i></code>
+        </div>
+        <hr>
+        <div>
+            <code class="ln-3">Follow Me on :  <a href="https://dribbble.com/Official_Muneeb_Ahmad"> <i class="fa-solid fa-basketball"></i> Dribble </a><a href="https://www.linkedin.com/in/muneeb-ahmad-bukhari/"><i class="fa-brands fa-linkedin"></i>LinkedIn </a></code>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+          <div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </div>
+          <div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </div>
+        <div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </div>
+        <div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </div>
+        <div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </div>
+            <div class="social">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-google"></a></li>
+            <li><a href="#" class="fa fa-linkedin"></a></li>
+            </div>
+            <h1 id="h1_ff"> FOOT-BAR</h1>
+        </ul>
+    </footer>
+
+    <script>
+        let mouse_leave = document.querySelector(".content");
+        let comment_1 = document.querySelector(".ln-1");
+        let comment_2 = document.querySelector(".ln-2");
+        let comment_3 = document.querySelector(".ln-3");
+
+
+        mouse_leave.addEventListener('mouseleave', (e) => {
+            mouse_leave.style.transition = "0.5s ease-in";
+            comment_1.style.transition = "0.5s ease-out";
+            comment_2.style.transition = "0.5s ease-out";
+            comment_3.style.transition = "0.5s ease-out";
+        })
+
+                // BURGER - REFERENCE
+                let burger_click = document.querySelector(".fa-bars");
+        let side_nav = document.querySelector(".side-nav-div");
+
+        // CROSS - REFERENCE
+        let cross_click = document.querySelector(".fa-xmark");
+
+        // BURGER - FUNCTION
+        burger_click.onclick = function() {
+            burger_click.classList.toggle("active");
+            side_nav.classList.toggle("active");
+            
+        }
+
+        //CROSS FUNCTION 
+        cross_click.onclick = function() {
+            cross_click.classList.toggle("active");
+            side_nav.classList.toggle("active");
+            
+        }
+
+    </script>
+</body>
+</html>

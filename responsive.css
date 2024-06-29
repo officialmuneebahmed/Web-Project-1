@@ -1,0 +1,1020 @@
+/* ............................ RESPONSIVE ............................. */
+
+
+@media (min-width:400px ) and (max-width: 599.5px){
+
+    /* ................................... BURGER ............................ */
+   
+   
+       /*  MAIN   */
+   
+       .content{
+           box-shadow: 5px 5px 5px 5px #000;
+           background-color: #00203FFF;
+           border-radius: 1.5em;
+           width: 50%;
+           height: auto;
+           display: flex;
+           flex-flow: column;
+           justify-content: space-evenly;
+           align-items: center;
+           align-content: center;
+           row-gap: 30px;
+           margin: 10em 10em 0em 7em;
+           padding: 1em;
+       } 
+       /* HEAD */
+   
+       nav ul{
+           display: flex;
+           flex-direction: column;
+           flex-wrap: nowrap;
+           justify-content: left;
+           display: none;
+       }
+   
+       nav ul h1{
+           margin-left: 15vw;
+           font-size: 36pt;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           margin-top: 1.8vw;
+           color: beige;
+          
+       }
+       #h1_f{
+           font-weight: 700;
+           margin-right: 0vw;   
+           width: 100%; 
+           color: #fff;
+       }
+       #h1_s{
+           font-weight: 400;
+           color: #fff;
+       }
+   
+       /* FOOTER */
+   
+       footer{
+           margin-top: 100vh;
+           height: 100vh;
+           width: 100%;
+           background-color: #00203FFF;
+           
+       }
+       footer ul{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           align-items: center;
+           align-content: center;
+           width: 80%;
+           height: 100%;
+           padding: 3vw;
+           margin-left: 3em;
+           border: none;
+           
+       }
+       footer ul div{
+        margin: 0.5em;
+       }
+       .social{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: center;
+           margin:3em 1em 1em 1em;    
+           width: 20vw;
+           border: none;
+       }
+       footer ul h1{
+           margin-left: 4vw;
+           font-size: 20pt;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           margin-top: 2em;
+           color: beige;
+           width: 20vw;
+           height: auto;
+           text-align: center;
+           border: none;
+           
+       }
+   
+                   /* ................................... BURGER ............................ */
+   
+                   .fa-bars{
+                       margin: 2em 0em 0em 3em;
+                       color: #E69A8DFF;
+                   }
+                   .fa-bars:hover{
+                       cursor: pointer;
+                       color: #4b2898;
+                   }
+               
+                 /* ................................... CROSS ............................ */
+               
+               
+                   .fa-xmark{
+                       margin: 2em 0em 1em 0em;
+                       color: #E69A8DFF;
+                   }
+                   .fa-xmark:hover{
+                       cursor: pointer;
+                       color: #4b2898;
+                   }   
+                   
+                   /* SIDE NAV OPEN */
+                   .side-nav-div{
+                       width: 100%;
+                       height: 120vh;
+                       margin-left: -100%;
+                       text-align: center;
+                      
+                   }
+                   .active.side-nav-div{
+                       margin-left: 0vw;
+                       transition: 0.5s ease-in-out;
+                       background: transparent;
+                       backdrop-filter: blur(16px);
+               
+                   }
+               
+                   .side-nav-div ul{
+                       display: flex;
+                       flex-direction: column;
+                       flex-wrap: wrap;
+                       text-align: center;
+                       backdrop-filter: blur(16px);
+                   }
+   
+                   .side-nav-div li a{
+                       color: #fff;
+                       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                       line-height: 5.4;
+                       
+   
+                   }
+                   .side-nav-div li a:hover{
+                    color: #c5c032;
+                }
+   
+               
+                       /* SIDE NAV CLOSE */
+                       
+               
+                       .side-nav-div{
+                           margin-top: -14vw;
+                           margin-bottom: 2em;
+                           transition: 0.5s ease;
+                           padding: 1em 0em;
+                           width: 100%;
+                           height: auto;
+                           margin-left: -100%;
+                           background: #5F4B8BFF;
+                           border: none;
+                           text-align: center;
+                          
+                       }
+                       .active.side-nav-div{
+                           margin-left: 0vw;
+                           transition: 0.5s ease-out;
+                           background: #5F4B8BFF;
+                           backdrop-filter: blur(16px);
+                   
+                       }
+               /*     
+                       .side-nav-div ul{
+                           display: flex;
+                           flex-direction: column;
+                           flex-wrap: wrap;
+                           text-align: center;
+                           border: none;
+                           backdrop-filter: blur(16px);
+                       }
+                       .side-nav-div ul li a:hover{
+                           border-bottom: none;
+                           color: #000;
+                           
+                       } */
+   
+           /* ............................................DROP { 2 }.............................. */
+           .side-nav-div .drop-2{
+               border: none;
+               align-content: center;
+               margin: 0em 12em;
+               display: none;
+           }
+           .side-nav-div li{
+               border: none;
+               margin: 0em 10em;
+               
+           }
+           .side-nav-div li:hover{
+            border: 1px solid #fff;
+            border-radius: 0.5em;
+            
+            
+        }
+        .side-nav-div ul li{
+            margin: 0em 0em 0em 0em;
+        }
+   
+           /* ..................................... ------------ ............................. */
+   
+           .drop-2 li:hover{
+               
+               display: block;
+               border: none;
+           }
+           ul li ul.drop-2 {
+               display: none !important;
+               border: none;
+               z-index: 1;
+               position: absolute;
+               margin: 0.5em 0em 0em 1em;
+               border: none;
+           }
+           .drop-2 li a:hover{
+   
+               border-radius: 0;
+               border: none;
+               
+           }
+           li:hover .drop-2{
+               display: block;
+               border-radius: 0.5em;
+               border: 1px solid #000000;
+               background-color: rgb(74, 42, 142);
+               width: 100%;
+               height: 100%;
+               margin-left: 0em;
+               padding: 0em 0.5em;
+               
+           }
+           .drop-2:hover{
+            border: 1px solid #ffffff;
+             
+        }
+   
+           /* CHECKING AREA ......................... DROP DOWN CHECKING */
+   
+           nav ul li{
+               list-style: none;
+               width: fit-content;
+               height: auto;
+               margin: 0vh 0vh 0vh 0em;
+               
+           }
+           nav ul li a{
+                position: relative;
+                text-align: center;
+               text-decoration: none;
+               color: beige;
+               padding: 0em 0em;
+               border-radius: 0.6vw;
+               font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           }
+           nav ul li a:hover{
+               border: none;
+               opacity: 0.6;
+               
+           }
+   
+           /* ................................... DROP PROJECT TEXT SETTINGS ................ */
+   
+           .drop-2 li p{
+               display: block;
+               border: none000;
+               color: rgb(234, 213, 209);
+               width: 100%;
+               height: 15vh;
+               margin: 0em 0em 0em 0em;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               padding: 2em;
+               display: none;
+           }
+           .drop-2 li:hover p{
+            display: block;
+            flex-direction: row;
+            text-align: left;
+            border-radius: 0.5em;
+            background-color: #4a2a8e;
+            box-shadow: 5px 5px 5px 5px #000;
+            width: 100%;
+            height: 100%;
+            padding: 0.5em 0.5em;
+            margin: 0.5em 0.5em;
+            
+               
+           }
+   }
+   
+
+@media (min-width:600px ) and (max-width: 849.5px){
+
+ /* ................................... BURGER ............................ */
+
+
+    /*  MAIN   */
+
+    .content{
+        box-shadow: 5px 5px 5px 5px #000;
+        background-color: #00203FFF;
+        border-radius: 1.5em;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        row-gap: 30px;
+        margin: 10em 10em 0em 10em;
+        padding: 1em;
+    } 
+    /* HEAD */
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: left;
+        display: none;
+    }
+
+    nav ul h1{
+        margin-left: 15vw;
+        font-size: 36pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1.8vw;
+        color: beige;
+       
+    }
+    #h1_f{
+        
+        font-weight: 700;
+        margin-right: 0vw;   
+        width: 100%; 
+        color: #fff;
+    }
+    #h1_s{
+        font-weight: 400;
+        padding-bottom: 2em;
+        color: #fff;
+    }
+
+    /* FOOTER */
+
+    footer{
+        margin-top: 100vh;
+        height: 100vh;
+        width: 100%;
+        background-color: #00203FFF;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        height: 100%;
+        padding: 3vw;
+        margin-left: 6em;
+        border: none;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:3em 1em 1em 1em;    
+        width: 20vw;
+        border: none;
+    }
+    footer ul h1{
+        margin-left: 4vw;
+        font-size: 20pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 2em;
+        color: beige;
+        width: 20vw;
+        height: auto;
+        text-align: center;
+        border: none;
+    }
+
+                /* ................................... BURGER ............................ */
+
+                .fa-bars{
+                    margin: 2em 0em 0em 3em;
+                    color: #E69A8DFF;
+                }
+                .fa-bars:hover{
+                    cursor: pointer;
+                    color: rgb(75, 40, 152);
+                }
+            
+              /* ................................... CROSS ............................ */
+            
+            
+                .fa-xmark{
+                    margin: 2em 0em 0em 0em;
+                    color: #E69A8DFF;
+                }
+                .fa-xmark:hover{
+                    cursor: pointer;
+                    color: #4b2898;
+                }   
+                
+                /* SIDE NAV OPEN */
+                .side-nav-div{
+                    width: 100%;
+                    height: 120vh;
+                    margin-left: -100%;
+                    text-align: center;
+                  
+                }
+                .active.side-nav-div{
+                    margin-left: 0vw;
+                    transition: 0.5s ease-in-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+            
+                .side-nav-div ul{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    backdrop-filter: blur(16px);
+                }
+
+                .side-nav-div li a{
+                    
+                    color: #fff;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    line-height: 5.4;
+                    
+
+                }
+                .side-nav-div li a:hover{
+                    color: #c5c032;
+                }
+
+
+            
+                    /* SIDE NAV CLOSE */
+                    
+            
+                    .side-nav-div{
+                        margin-top: -7vw;
+                        transition: 0.5s ease;
+                        padding: 0vw;
+                        width: 100%;
+                        height: auto;
+                        margin-left: -100%;
+                        background: #5F4B8BFF;
+                        border: none;
+                        text-align: center;
+                       
+                    }
+                    .active.side-nav-div{
+                        margin-left: 0vw;
+                        transition: 0.5s ease-out;
+                        background: #5F4B8BFF;
+                        backdrop-filter: blur(16px);
+                
+                    }
+            /*     
+                    .side-nav-div ul{
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        text-align: center;
+                        border: none;
+                        backdrop-filter: blur(16px);
+                    }
+                    .side-nav-div ul li a:hover{
+                        border-bottom: none;
+                        color: #000;
+                        
+                    } */
+
+        /* ............................................DROP { 2 }.............................. */
+        .side-nav-div .drop-2{
+            border: none;
+            align-content: center;
+            margin: 0em 12em;
+            display: none;
+        }
+        .side-nav-div li{
+            
+            border: none;
+            margin: 1em 10em;
+            padding: 0em 0em;
+            
+        }
+        .side-nav-div li:hover{
+            border: 1px solid #fff;
+            border-radius: 0.5em;
+        }
+        .side-nav-div ul li{
+            margin: 0em 0em 0em 0em;
+        }
+
+        /* ..................................... ------------ ............................. */
+
+        .drop-2 li:hover{
+            
+            display: block;
+            border: none;
+        }
+        ul li ul.drop-2 {
+            display: none !important;
+            border: none;
+            z-index: 1;
+            position: absolute;
+            margin: 0.5em 0em 0em 1em;
+            border: none;
+        }
+        .drop-2 li a:hover{
+            
+            border-radius: 0;
+            border: none;
+            
+        }
+        li:hover .drop-2{
+            display: block;
+            border-radius: 0.5em;
+            border: 1px solid #fff;
+            background-color: rgb(74, 42, 142);
+            width: 100%;
+            height: 100%;
+            margin-left: 0em;
+            padding: 0em 1em;
+        }
+        .drop-2:hover{
+            border: 1px solid #f6f6f6;
+           
+        }
+
+        /* CHECKING AREA ......................... DROP DOWN CHECKING */
+
+        nav ul li{
+            list-style: none;
+            width: fit-content;
+            height: auto;
+            margin: 0vh 0vh 0vh 0em;
+
+        }
+        nav ul li a{
+            text-align: center;
+            text-decoration: none;
+            color: beige;
+            padding: 1.8em 10.55em;
+            border-radius: 0.6vw;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        nav ul li a:hover{
+            border: 1px solid #f6f6f6;
+            cursor: pointer;
+            opacity: 0.6;
+        }
+
+        /* ................................... DROP PROJECT TEXT SETTINGS ................ */
+
+        .drop-2 li p{
+            display: block;
+            border: none;
+            color: rgb(234, 213, 209);
+            width: 100%;
+            height: 15vh;
+            margin: 0em 0em 0em 0em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 2em;
+            display: none;
+        }
+        #pro-2:hover p{
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            border-radius: 0.5em;
+            background-color: #4a2a8e;
+            box-shadow: 5px 5px 5px 5px #000;
+            width: 100%;
+            height: 100%;
+            padding: 1.5em 1em;
+            margin: 0em 1em;
+            
+        }
+
+}
+
+@media (min-width:850px ) and (max-width: 899.5px){
+            /* HEADER */
+
+            /* ................................... BURGER ............................ */
+            .side-nav-div{
+                display: none;
+            }
+            .burger{
+                display: none;
+            }
+
+    /*  MAIN   */
+
+    .content{
+        box-shadow: 5px 5px 5px 5px #000;
+        background-color: #00203FFF;
+        border-radius: 1.5em;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        row-gap: 30px;
+        margin: 10em 10em 0em 14em;
+        padding: 1em;
+    } 
+    /* HEAD */
+    nav ul h1{
+        margin-left: 14vw;
+        font-size: 36pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1.8vw;
+        color: beige;
+    }
+    #h1_f{
+        font-weight: 700;
+        margin-right: -14vw;
+    }
+    #h1_s{
+        font-weight: 400;
+    }
+
+    /* FOOTER */
+
+    footer{
+        margin-top: 100vh;
+        height: 100vh;
+        width: 100%;
+        background-color: #00203FFF;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        height: 100%;
+        padding: 3vw;
+        margin-left: 6em;
+        border: none;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:3em 1em 1em 1em;    
+        width: 20vw;
+        border: none;
+    }
+    footer ul h1{
+        margin-left: 4vw;
+        font-size: 20pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 2em;
+        color: beige;
+        width: 20vw;
+        height: auto;
+        text-align: center;
+        border: none;
+    }
+}
+
+@media (min-width:900px ) and (max-width: 959.5px){
+
+    .side-nav-div{
+        display: none;
+    }
+    .burger{
+        display: none;
+    }
+
+    /*  MAIN   */
+
+    .content{
+        box-shadow: 5px 5px 5px 5px #000;
+        background-color: #00203FFF;
+        border-radius: 1.5em;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        row-gap: 30px;
+        margin: 10em 10em 0em 16em;
+        padding: 1em;
+    } 
+    /* HEAD */
+    nav ul h1{
+        margin-left: 17vw;
+        font-size: 36pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1.8vw;
+        color: beige;
+    }
+    #h1_f{
+        font-weight: 700;
+        margin-right: -17vw;
+        color: #fff;
+    }
+    #h1_s{
+        font-weight: 400;
+    }
+
+    /* FOOTER */
+
+    footer{
+        margin-top: 100vh;
+        height: 100vh;
+        width: 100%;
+        background-color: #00203FFF;#00203FFF
+    }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        height: 100%;
+        padding: 3vw;
+        margin-left: 6em;
+        border: none;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:5em 1em 1em 1em;    
+        width: 20vw;
+        border: none;
+    }
+    footer ul h1{
+        margin-left: 4vw;
+        font-size: 26pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 2em;
+        color: beige;
+        width: 20vw;
+        height: auto;
+        text-align: center;
+        
+    }
+}
+
+@media (min-width:960px ) and (max-width: 998.5px){
+        /* HEADER */
+
+            /* ................................... BURGER ............................ */
+            .side-nav-div{
+                display: none;
+            }
+            .burger{
+                display: none;
+            }
+    
+
+    /*  MAIN   */
+
+    .content{
+        box-shadow: 5px 5px 5px 5px #000;
+        background-color: #00203FFF;
+        border-radius: 1.5em;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        row-gap: 30px;
+        margin: 10em 10em 0em 16em;
+        padding: 1em;
+    } 
+    /* HEAD */
+    nav ul h1{
+        margin-left: 19vw;
+        font-size: 36pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1.8vw;
+        color: beige;
+    }
+    #h1_f{
+        font-weight: 700;
+        margin-right: -19vw;
+    }
+    #h1_s{
+        font-weight: 400;
+    }
+    /* FOOTER */
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left:-1em;    
+        width: 30vw;
+        padding-top: 4em;
+    }
+    footer ul h1{
+        margin-left: 0vw;
+        font-size: 26pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1.8vw;
+        color: beige;
+        width: 15vw;
+        height: auto;
+        text-align: center;
+        
+    }
+
+    
+    footer{
+        margin-top: 100vh;
+        height: 70vh;
+        width: 100%;
+        background-color: #00203FFF;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        height: 100%;
+        padding: 3vw;
+        margin-left: 3em;
+        border: none;
+    }
+    footer ul li{
+        list-style: none;
+        margin-top: 1vw;
+    }
+}
+
+@media (min-width:999px ) and (max-width: 1029.5px){
+
+    /* HEADER */
+
+            /* ................................... BURGER ............................ */
+            .side-nav-div{
+                display: none;
+            }
+            .burger{
+                display: none;
+            }
+    
+
+    /*  MAIN   */
+
+    .content{
+        box-shadow: 5px 5px 5px 5px #000;
+        background-color: #00203FFF;
+        border-radius: 1.5em;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        row-gap: 30px;
+        margin: 10em 10em 0em 16em;
+        padding: 1em;
+    } 
+    /* HEAD */
+    nav ul h1{
+        margin-left: 22vw;
+        font-size: 36pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1.8vw;
+        color: beige;
+    }
+    #h1_f{
+        font-weight: 700;
+        margin-right: -22vw;
+    }
+    #h1_s{
+        font-weight: 400;
+    }
+    /* FOOTER */
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left:-1em;    
+        width: 30vw;
+    }
+    footer ul h1{
+        margin-left: 5vw;
+        font-size: 26pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1.8vw;
+        color: beige;
+        width: 18vw;
+        height: auto;
+        text-align: center;
+        
+    }
+}
+
+@media (min-width:1030px ) and (max-width: 1069.5px){
+
+
+        /* HEADER */
+
+            /* ................................... BURGER ............................ */
+            .side-nav-div{
+                display: none;
+            }
+            .burger{
+                display: none;
+            }
+    /* FOOTER */
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left:1em;    
+        width: 30vw;
+        
+    }
+}
+
+@media (min-width:1070px ) and (max-width: 1119.5px){
+        /* HEADER */
+
+            /* ................................... BURGER ............................ */
+            .side-nav-div{
+                display: none;
+            }
+            .burger{
+                display: none;
+            }
+
+    /* FOOTER */
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left:2em;    
+        width: 30vw;
+    }
+}
+
+@media (min-width:1120px ) and (max-width: 1440px){
+
+
+    /* HEADER */
+
+            /* ................................... BURGER ............................ */
+            .side-nav-div{
+                display: none;
+            }
+            .burger{
+                display: none;
+            }
+    
+
+    /* FOOTER */
+
+
+
+    /* SOCIAL LINKS */
+    .social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 3em;    
+        width: 30vw;
+    }
+}
